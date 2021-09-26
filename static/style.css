@@ -1,0 +1,18 @@
+html {
+  background-color: #273941;
+  color: rgb(209, 209, 209);
+  font-family: Helvetica, sans-serif;
+}
+
+#content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #ade8f4;
+}
+
+p {
+  line-height: 1.3em;
+}

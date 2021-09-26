@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <title>Pretty Wiki</title>
+  </head>
+  <body>
+    <div id="content-wrapper">{{ wiki_content|safe }}</div>
+  </body>
+</html>
